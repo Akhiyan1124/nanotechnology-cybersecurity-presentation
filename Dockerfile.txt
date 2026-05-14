@@ -15,4 +15,4 @@ RUN useradd -m secureuser
 USER secureuser
 
 # Run application
-CMD ["python", "app.py"]
+CMD ["python", "python-simulation-for-data-security.py"]
