@@ -1,0 +1,19 @@
+Step 1: Create Project Folder
+mkdir nanotech-secure
+cd nanotech-secure
+Step 2: Save Your Python Code
+
+Create file:
+
+nano python-simulation-for-data-security.py
+Step 3: Create Dockerfile (VERY IMPORTANT)
+nano Dockerfile
+4. Build & Run Secure Docker Container
+🔹 Build Image
+docker build -t nanotech-secure-app .
+🔹 Run Container
+docker run --name nano-secure-container nanotech-secure-app
+🔹 Check Running Containers
+docker ps
+🔹 Stop Container
+docker stop nano-secure-container
